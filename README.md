@@ -25,3 +25,16 @@ _Ở đoạn code mẫu ta đặt 3 thuộc tính for gọi tới id của thẻ
 - Icon để bật navbar
 - overplay để tắt navbar khi click ngoài màn hình
 - Icon close để tắt navbar và overplay
+
+### Đây là đoạn code mẫu để selector tới các label
+```
+.nav__input:checked ~ .overplay-backgroud {
+    display: block;
+}
+
+.nav__input:checked ~ .nav__mobile {
+    transform: translateX(0);
+    opacity: 1;
+}
+```
+_Trước đó các class overplay-backgroud và nav__mobile đang được ẩn_
