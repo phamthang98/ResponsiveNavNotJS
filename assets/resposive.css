@@ -1,0 +1,8 @@
+@media (max-width: 1023px) {
+    .nav__pc-item-link {
+        display: none;
+    }
+    .nav__mobile-icon {
+        display: block;
+    }
+}
