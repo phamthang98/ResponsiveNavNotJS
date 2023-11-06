@@ -20,3 +20,8 @@ Trong đó ta đặt id của thẻ input là nav-mobile-input
 Sau đó để các thẻ label có thể check được thẻ input thì ta cần thêm attribute for="id" vào thẻ label như đoạn dưới đây
 
 `<label for="nav-mobile-input" class="overplay-backgroud"></label>`
+
+_Ở đoạn code mẫu ta đặt 3 thuộc tính for gọi tới id của thẻ input bao gồm:_
+- Icon để bật navbar
+- overplay để tắt navbar khi click ngoài màn hình
+- Icon close để tắt navbar và overplay
